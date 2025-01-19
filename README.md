@@ -20,7 +20,7 @@ Let $\text{Alpha}$ be the alphabet and let $\text{Dict}$ be the dictionary.
 
 Denote $\text{Seq}_{\{y\}} \in \text{Dict}$ as any sequence that contains code $y$.
 
-Define the equivalence relationship by $x \sim y \iff \exists \text{Seq}_{\{y\}} : x \in \text{Seq}_{\{y\}}$.
+Define the equivalence relationship by $$x \sim y \iff \exists \text{Seq}_{\{y\}} : x \in \text{Seq}_{\{y\}}$$.
 
 Then the identifiers set is defined as:
 
@@ -39,7 +39,7 @@ O(M \times L^2 + 2C + C^2)
 $$
 
 Where:
--  $M = |\text{Dict}|$ is the number of words.
+-  $M = |\text{Dict }|$ is the number of words.
 - $L$ is the average length of words.
 - $C=|\text{Alpha}|$ is the number of unique characters in the alphabet.
 

@@ -18,9 +18,9 @@ dictionary = [{'B', 'H', 'A', 'C'}, {'D'}, {'G', 'E', 'F'}]
 
 Let $\text{Alpha}$ be the alphabet and let $\text{Dict}$ be the dictionary.
 
-Denote $\text{Seq}_{\{y\}} \in \text{Dict}$ as any sequence that contains code $y$.
+Denote $\text{Seq}_{y} \in \text{Dict}$ as any sequence that contains code $y$.
 
-Define the equivalence relationship by $x \sim y$ $\iff$ $\exists \text{Seq}_{\{y\}} : x \in \text{Seq}_{\{y\}}$
+Define the equivalence relationship by $x \sim y$ $\iff$ $\exists \text{Seq}_{y} : x \in \text{Seq}_{y}$
 
 Then the identifiers set is defined as:
 

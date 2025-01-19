@@ -18,9 +18,9 @@ dictionary = [{'B', 'H', 'A', 'C'}, {'D'}, {'G', 'E', 'F'}]
 
 Let $\text{Alpha}$ be the alphabet and let $\text{Dict}$ be the dictionary.
 
-Denote $\text{Seq}_{y} \in \text{Dict}$ as any sequence that contains code $y$.
+Denote $\text{Seq}(y) \in \text{Dict}$ as any sequence that contains code $y$.
 
-Define the equivalence relationship by $x \sim y$ $\iff$ $\exists$ $\text{Seq}_{y}$ : $x \in \text{Seq}_{y}$
+Define the equivalence relationship by $x \sim y \iff \exists \text{Seq}(y) : x \in \text{Seq}(y)$
 
 Then the identifiers set is defined as:
 
@@ -41,7 +41,7 @@ $$
 Where:
 -  $M = |\text{Dict }|$ is the number of words.
 - $L$ is the average length of words.
-- $C=|\text{Alpha}|$ is the number of unique characters in the alphabet.
+- $C=|\text{Alpha }|$ is the number of unique characters in the alphabet.
 
 ## Algorithm Description
 ### 1. Initialize Data Structures:
